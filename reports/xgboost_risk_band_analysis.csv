@@ -1,0 +1,4 @@
+risk_band,loans,loan_share,bad_loans,actual_bad_rate,average_pd,min_pd,max_pd
+Low risk,126044,0.6764,650,0.0052,0.0055,0.0033,0.012
+Medium risk,23709,0.1272,530,0.0224,0.017,0.012,0.024
+High risk,36597,0.1964,2278,0.0622,0.0656,0.024,0.469

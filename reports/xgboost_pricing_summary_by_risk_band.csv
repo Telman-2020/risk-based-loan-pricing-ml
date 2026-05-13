@@ -1,0 +1,4 @@
+risk_band,loans,bad_loans,average_pd,actual_bad_rate,average_expected_loss,average_suggested_apr
+Low risk,126044,650,0.0055,0.0052,0.0022,0.0922
+Medium risk,23709,530,0.017,0.0224,0.0068,0.0968
+High risk,36597,2278,0.0656,0.0622,0.0262,0.1162

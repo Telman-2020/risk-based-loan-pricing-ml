@@ -1,0 +1,4 @@
+feature_1,feature_2,pearson_correlation,absolute_correlation
+original_cltv,original_ltv,1.0,1.0
+mortgage_insurance_percentage,original_cltv,0.7,0.7
+mortgage_insurance_percentage,original_ltv,0.7,0.7

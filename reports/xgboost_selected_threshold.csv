@@ -1,0 +1,2 @@
+threshold,approval_rate,decline_rate,precision,recall_bad_loan_capture_rate,f1_score,false_positive_rate,true_positive,false_positive,true_negative,false_negative,selection_rule
+0.024,0.8036,0.1964,0.0622,0.6588,0.1137,0.1876,2278,34319,148573,1180,maximise bad-loan recall while approval_rate >= 0.8

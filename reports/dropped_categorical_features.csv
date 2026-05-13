@@ -1,0 +1,6 @@
+feature,reason,unique_values
+prepayment_penalty_mortgage_flag,only_one_class,1
+amortization_type,only_one_class,1
+interest_only_indicator,only_one_class,1
+msa,high_cardinality_or_redundant,435
+postal_code,high_cardinality_or_redundant,888

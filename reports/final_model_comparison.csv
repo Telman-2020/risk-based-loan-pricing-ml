@@ -1,0 +1,4 @@
+model_name,model_type,roc_auc,pr_auc,notes
+XGBoost,Best challenger model,0.8248,0.1313,Best PR-AUC; selected as strongest model for risk-based pricing
+Simple MLP,Simple deep learning challenger,0.8213,0.1161,Improved slightly over Logistic Regression but weaker than XGBoost
+Logistic Regression L1,Interpretable baseline,0.8165,0.113,Scorecard-style model; calibrated PD used for pricing

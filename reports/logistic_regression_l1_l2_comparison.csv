@@ -1,0 +1,3 @@
+model_name,validation_roc_auc,validation_pr_auc
+logistic_regression_l1,0.8227,0.1117
+logistic_regression_l2,0.8227,0.1114
