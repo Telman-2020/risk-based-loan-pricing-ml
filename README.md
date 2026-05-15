@@ -1,4 +1,11 @@
+<p align="center">
+  <img src="assets/risk-project-thumbnail.png" alt="Project thumbnail" width="900">
+</p>
+
 # Risk-Based Loan Pricing ML
+
+**Author:** Telman Maghrebi  
+**Role:** Data Scientist 
 
 End-to-end credit-risk modelling and risk-based pricing project using real-world Freddie Mac loan-level performance data.
 

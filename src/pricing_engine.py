@@ -6,6 +6,7 @@ import pandas as pd
 PREDICTIONS_PATH = Path("reports/logistic_regression_test_predictions.csv")
 SELECTED_THRESHOLD_PATH = Path("reports/selected_threshold.csv")
 OUTPUT_PATH = Path("reports/pricing_decisions.csv")
+SUMMARY_OUTPUT_PATH = Path("reports/pricing_summary_by_risk_band.csv")
 
 
 LGD = 0.40
@@ -108,7 +109,12 @@ def main():
         ]
     ].round(4)
 
+    summary.to_csv(SUMMARY_OUTPUT_PATH, index=False)
+
     print(summary)
+
+    print("\nSaved pricing summary:")
+    print(SUMMARY_OUTPUT_PATH)
 
     print("\nSaved pricing decisions:")
     print(OUTPUT_PATH)
